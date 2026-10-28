@@ -61,7 +61,7 @@ A clean, modern, and fully responsive Todo Web Application developed as a fronte
 ## 📁 Project Structure
 
 ```text
-PRO/
+todo-app-college-project/
 ├── index.html              # HTML entry point with metadata and title
 ├── package.json            # Project dependencies and npm scripts
 ├── vite.config.js          # Vite configuration with relative base path
@@ -121,14 +121,14 @@ npm run preview
 
 This project is configured for automated deployment via GitHub Actions:
 
-1. **Repository**: [https://github.com/yatlasnehith77-hub/todo-app-college-project](https://github.com/yatlasnehith77-hub/todo-app-college-project)
+1. **Repository**: `https://github.com/<your-username>/todo-app-college-project`
 2. **Vite Base Path**: Configured as `/todo-app-college-project/` in `vite.config.js`.
 3. **Workflow**: Automated build & deployment defined in `.github/workflows/deploy.yml`.
 
 ### Enabling GitHub Pages in Repository Settings:
-1. Open your repository at: [https://github.com/yatlasnehith77-hub/todo-app-college-project/settings/pages](https://github.com/yatlasnehith77-hub/todo-app-college-project/settings/pages)
+1. Go to your repository on GitHub: `https://github.com/<your-username>/todo-app-college-project/settings/pages`
 2. Under **Build and deployment** > **Source**, select **GitHub Actions**.
-3. Push your commits to `main`:
+3. Push your code to the `main` branch:
    ```bash
    git add .
    git commit -m "Configure GitHub Pages deployment"
@@ -136,7 +136,7 @@ This project is configured for automated deployment via GitHub Actions:
    ```
 4. The GitHub Action will automatically trigger, build the project, and publish it.
 5. Your live app will be available at:
-   `https://yatlasnehith77-hub.github.io/todo-app-college-project/`
+   `https://<your-username>.github.io/todo-app-college-project/`
 
 ---
 
